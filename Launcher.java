@@ -53,7 +53,7 @@ public class Launcher {
 		System.out.println("3");
 		LauncherFrame.getInstance().setVisible(true);
 		System.out.println("4");
-		SUpdate su = new SUpdate("http://factoryuhclauncher.000webhostapp.com", MG_DIR);
+		SUpdate su = new SUpdate("URL_DOWNLOAD_FILES", MG_DIR);
 		System.out.println("5");
 		su.addApplication(new FileDeleter());
 		System.out.println("6");
